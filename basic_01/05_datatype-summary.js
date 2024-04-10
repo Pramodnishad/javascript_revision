@@ -34,4 +34,37 @@ const myDetail = function(){
     console.log("Hello World")
 }
 
-console.log(typeof bigNumber)
+// console.log(typeof bigNumber)
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//  Memory Allocation
+
+//  Stack (Primitive)   
+//  Heap  (Non primitive)
+
+
+let myYoutubeName = "pramodyoutube.com"
+
+let anotherYoutubeName = myYoutubeName
+
+anotherYoutubeName = "xyzyoutube.com"
+
+// console.log(myYoutubeName)
+// console.log(anotherYoutubeName)
+
+
+let userOne = {
+    name: "Pramod",
+    age: 25
+}
+
+let userTwo = userOne
+
+userTwo.name = "nishad"
+
+console.log(userOne)
+console.log(userTwo)
