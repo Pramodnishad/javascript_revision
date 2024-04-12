@@ -66,5 +66,5 @@ let userTwo = userOne
 
 userTwo.name = "nishad"
 
-console.log(userOne)
-console.log(userTwo)
+// console.log(userOne)
+// console.log(userTwo)
