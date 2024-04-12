@@ -60,4 +60,17 @@ const user = [
 
 // console.log(tinderUser.hasOwnProperty("isLoggedIn"))
 // console.log(tinderUser.includes("isLoggedIn"))
-console.log(regularUser.hasOwnProperty("isLoggedIn"))
+// console.log(regularUser.hasOwnProperty("isLoggedIn"))
+
+
+const course = {
+    courseName:"JS in Hindi",
+    coursePrice:"850",
+    courseInstructor:"Hitesh Chaudhary"
+}
+
+console.log(course)
+
+const {courseInstructor} = course
+
+console.log(courseInstructor)
