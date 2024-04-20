@@ -20,15 +20,16 @@ results.innerHTML = `Please give a valid weight ${weight}`
     // } else{
     //     results.innerHTML = `Your are out of control ${bmi}`
     // }
-    switch(bmi){
+    
+    switch(true){
         case (bmi < 18.9):
-            results.innerHTML = `You are under weight ${bmi}`
+            results.innerHTML = ` ${bmi} <br/>You are under weight`
             break;
-            case(bmi >= 18.9 && bmi <= 24.9) :
-            results.innerHTML = `You are normal ${bmi}`
+            case(bmi >= 18.6 && bmi <= 24.9) :
+            results.innerHTML = ` ${bmi} <br/> You are normal`
             break;
             default:
-                results.innerHTML = `Your are out of control ${bmi}`
+                results.innerHTML = `${bmi} <br/> Your are out of control `
     }
     
 }
